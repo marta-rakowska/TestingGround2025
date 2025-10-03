@@ -87,7 +87,34 @@ git clone https://github.com/YOUR_USERNAME/TestingGround2025.git
 #### 6. Open the Project in VS Code  
 Navigate to the cloned folder and open it in VS Code.
 
-
+#### 7. Check if everything works fine
+- Open Terminal in VS Code / Pycharm
+- Navigate to TestingGround2025 folder
+- execute:
+```bash
+python -m robot Tests\Test_Setup.robot   
+```
+You should see the result:
+```bash
+==============================================================================
+Test Setup :: Simple Robot Framework test setup
+==============================================================================
+Simple Variable Test :: Test basic variable usage                     | PASS |
+------------------------------------------------------------------------------
+Simple Math Test :: Test basic mathematical operations                | PASS |
+------------------------------------------------------------------------------
+String Operations Test :: Test string manipulation                    | PASS |
+------------------------------------------------------------------------------
+List Operations Test :: Test list operations                          | PASS |
+------------------------------------------------------------------------------
+Test Setup :: Simple Robot Framework test setup                       | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Output:  C:\workshop\TestingGround2025\output.xml
+Log:     C:\workshop\TestingGround2025\log.html
+Report:  C:\workshop\TestingGround2025\report.html
+PS C:\workshop\TestingGround2025> 
+```
 ### ✅ You're All Set!
 
 Make sure everything is installed and working **before the workshop** to ensure smooth participation. In case of any problems with installation or configuration, please don't hesitate to contact me directly: t.klepacki@wp.pl. 
